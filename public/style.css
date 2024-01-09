@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+.container {
+    text-align: center;
+    /* background-color: #1a1a1a; Same color as body */
+    padding: 20px; /* Adjust padding as needed */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+img {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* h1 {
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'VT323', monospace;
+    font-size: 10em;
+    margin-bottom: 50px;
+} */
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 10em;
+    margin-bottom: 50px;
+    line-height: 1.0; /* Adjust the line height */
+}
+
+#cursor {
+    animation: blink 0.7s infinite;
+    position: relative;
+    top: -5px; /* Adjust the vertical position */
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.quote{
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+.technologies span {
+    margin-right: 100px; /* Adjust the margin between words */
+    width: 100%; /* Set each span to take up the full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+.technologies {
+    display: flex;
+    justify-content: space-between; /* Center the items horizontally */
+    /* flex-wrap: wrap; */
+    margin-top: 100px; /* Adjust the margin-top as needed to move the line down */
+    /* margin-right: 10px; */
+    margin-left: 50px;
+}
+
+.knowmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.icon-link {
+    text-decoration: none;
+    color: white;
+    font-size: 36px; /* Adjust icon size */
+    margin-bottom: 10px; /* Adjust spacing between icon and text */
+    display: inline-flex;
+    /* margin-right: 100px; */
+}
+
+.icon-text {
+    font-size: 18px; /* Adjust text size */
+}
+
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-left: 120px;
+    margin-right: 200px; /* Adjust spacing between icon containers */
+    margin-top: 70px; /* Adjust the position of the entire container */
+}
+
+footer {
+    background-color: #1a1a1a; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 5px; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
