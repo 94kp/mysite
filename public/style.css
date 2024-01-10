@@ -126,3 +126,19 @@ footer {
     width: 100%;
     font-size: 12px;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .technologies {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+        margin-top: 20px; /* Adjust margin for better spacing */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .technologies span {
+        margin-right: 0; /* Remove right margin */
+        width: auto; /* Allow items to take their natural width */
+    }
+}
+
