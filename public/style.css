@@ -21,6 +21,10 @@ body {
     /* margin-top: 20px; */
 }
 
+.navbar {
+    position:fixed;
+}
+
 img {
     margin-bottom: 20px; /* Adjust the margin as needed */
 }
