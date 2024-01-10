@@ -179,7 +179,7 @@ footer {
             align-items: center;
             justify-content: center;
             margin: 0;
-            padding: 400px 10px 50px; /* Adjust top padding to create space for fixed navigation bar */
+            padding: 300px 10px 50px; /* Adjust top padding to create space for fixed navigation bar */
             background-color: #1a1a1a;
             color: #f0f0f0;
             line-height: 1.5;
@@ -200,3 +200,4 @@ footer {
         font-size: 7px;
     }
 }
+
