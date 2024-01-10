@@ -43,7 +43,7 @@ h1 {
 #cursor {
     animation: blink 0.7s infinite;
     position: relative;
-    top: -5px; /* Adjust the vertical position */
+    top: 1px; /* Adjust the vertical position */
 }
 
 @keyframes blink {
@@ -56,7 +56,7 @@ h1 {
 }
 
 .quote{
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 40px;
 }
 
@@ -129,6 +129,13 @@ footer {
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+    h1 {
+        font-size: 3em; /* Adjust the font size for better mobile display */
+        margin-bottom: 20px; /* Add some space between name and quote */
+        position: relative;
+        display: inline-block;
+    }
+
     .technologies span {
         margin-right: 0;
         width: auto;
@@ -142,15 +149,28 @@ footer {
     }
 
     .icon-container {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 0;
-        margin-right: 0;
+        padding-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
+        /* justify-content: space-around; */
+        height: 100%;
+        justify-content: space-between;
     }
 
     .icon-link {
         margin-bottom: 10px; /* Adjust spacing between each icon and text */
+        /* margin-right: 10px; */
+    }
+
+    .icon-text {
+        font-size: 12px;
+        /* margin-right: 20px; */
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 
     body {
@@ -159,12 +179,24 @@ footer {
             align-items: center;
             justify-content: center;
             margin: 0;
-            padding: 70px 10px 10px; /* Adjust top padding to create space for fixed navigation bar */
+            padding: 400px 10px 50px; /* Adjust top padding to create space for fixed navigation bar */
             background-color: #1a1a1a;
             color: #f0f0f0;
             line-height: 1.5;
             font-size: 1em;
             margin-bottom: 20px;
+            padding-bottom: 100px;
             /* margin-bottom: 20px; Adjust margin as needed */
+    }
+
+    footer {
+        background-color: #1a1a1a; /* Set your desired background color */
+        color: #fff; /* Set your desired text color */
+        padding: 1px; /* Adjust padding as needed */
+        text-align: center; /* Center the text */
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 7px;
     }
 }
