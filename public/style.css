@@ -129,24 +129,31 @@ footer {
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .technologies {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
-        margin-top: 20px; /* Adjust margin for better spacing */
-        margin-left: 0; /* Remove left margin */
+    .technologies span {
+        margin-right: 0;
+        width: auto;
     }
 
-    .technologies span {
-        margin-right: 0; /* Remove right margin */
-        width: auto; /* Allow items to take their natural width */
+    .technologies {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0;
     }
 
     .icon-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
-        padding-left: 0; /* Remove left padding */
-        margin-right: 0; /* Remove right margin */
-        margin-top: 20px; /* Adjust margin for better spacing */
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .icon-link {
+        margin-bottom: 10px; /* Adjust spacing between each icon and text */
+    }
+
+    body {
+        margin-bottom: 20px; /* Adjust margin as needed */
     }
 }
-
