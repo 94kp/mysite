@@ -140,5 +140,13 @@ footer {
         margin-right: 0; /* Remove right margin */
         width: auto; /* Allow items to take their natural width */
     }
+
+    .icon-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+        padding-left: 0; /* Remove left padding */
+        margin-right: 0; /* Remove right margin */
+        margin-top: 20px; /* Adjust margin for better spacing */
+    }
 }
 
