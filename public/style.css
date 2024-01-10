@@ -194,10 +194,10 @@ footer {
         color: #fff; /* Set your desired text color */
         padding: 1px; /* Adjust padding as needed */
         text-align: center; /* Center the text */
-        position: fixed;
+        position: relative;
         bottom: 0;
         width: 100%;
-        font-size: 7px;
+        font-size: 9px;
     }
 }
 
