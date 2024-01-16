@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Patil</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../public/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="public/about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="public/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="public/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Projects</h1>
+
+    <!-- Project Row 1 -->
+    <div class="card-row">
+        <div class="card" style="width: 18rem;">
+            <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Raycasting Wolfenstein 3D</h5>
+                <p class="card-text">I created a Wolfenstein 3D style level using C and SDL.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">View
+                    Details</button>
+            </div>
+        </div>
+        <!-- Off canvas info display - Write project details here-->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Wolfenstein 3D - Raycasting</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>
+                    I wrote a program that uses Raycasting to create a demo of a game similar to the classic Wolfenstein
+                    3D.
+                    The aim was to learn and understand how classic games were created from scratch.
+                    I created the project for web using p5.js and for the desktop using SDL and C programming language.
+
+                <ul>Technologies used:
+                    <li>C Programming Language for the desktop version</li>
+                    <li>Javascript and p5.js for the web version</li>
+                    <li>SDL for windowing</li>
+                    <li>upng - an external library for loading textures</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">OpenGL for Windows</h5>
+                <p class="card-text">Here are some small projects I created for Windows using OpenGL for learning</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions2">View
+                    Details</button>
+            </div>
+        </div>
+        <!-- Off canvas info display - Write project details here-->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions2"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">OpenGL for Windows</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>
+                    These programs were all created using OpenGL and Win32 SDK, using the C programming language.
+                    The aim was to be study and understand OpenGL and Windows programming on the native level to ensure
+                    clarity.
+                    These programs were created using both core (programmable pipeline) and compatibility (fixed
+                    function pipelines) modes.
+
+                <ul>Technologies used:
+                    <li>C programming language</li>
+                    <li>Win32 SDK</li>
+                    <li>OpenGL FFP and 4.5</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- PROJECT ROW END-->
+
+    <div class="card-col">
+        <!-- Project Row 1 -->
+        <div class="card-row">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">OpenGL for Linux</h5>
+                    <p class="card-text">Programs written in C for Linux using X Windows (xlib).</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions3" aria-controls="offcanvasWithBothOptions3">View
+                        Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions3"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">OpenGL for Linux</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These programs were written for Linux systems using Linux' native windowing system (X windows).
+                        Once again, the idea was to study OpenGL while maintaining a thorough understanding of native
+                        software development.
+
+                    <ul>Technologies Used:
+                        <li>C programming language</li>
+                        <li>X Windows Programming</li>
+                        <li>OpenGL FFP and 4.5</li>
+                        <li>SOIL - an image loading library for linux</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">WebGL</h5>
+                    <p class="card-text">Programs written in WebGL.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions4" aria-controls="offcanvasWithBothOptions4">View
+                        Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions4"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">WebGL</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These programs were written for webGL. All programs have been written and tested using Mozilla
+                        Firefox.
+
+                        <!-- Insert webgl Links here?-->
+
+                    <ul>Technologies used:
+                        <li>Javascript</li>
+                        <li>OpenGL ES 3.0</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Project Row 3-->
+        <div class="card-row">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">OpenGL on Android</h5>
+                    <p class="card-text">Programs created to run OpenGL on Android.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions5">View
+                        Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">OpenGL for Android Devices</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These OpenGL ES programs were created for Android Phones.
+
+                        (All programs were tested on a OnePlus Nord 2 CE lite phone)
+
+                    <ul>
+                        Technologies Used:
+                        <li>Java Programming for Android</li>
+                        <li>OpenGL ES 3.0+</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Programs written using DirectX 11.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions6" aria-controls="offcanvasWithBothOptions6">View
+                            Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions6"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DirectX 11</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These programs were written using DirectX 11.
+
+                    <ul>
+                        Technologies Used:
+                        <li>DirectX 11</li>
+                        <li>DirectXTK</li>
+                        <li>Win32 SDK</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Project Row 4-->
+        <div class="card-row">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Playstation 1 Programming</h5>
+                    <p class="card-text">Programs created for the original Sony PlayStation game console</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions5">View
+                        Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Playstation 1 Programming</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        Programs created for the Sony Playstation 1 just for curiosity and learning!
+
+                        The programs were created in a VM version of Windows 98 (for compatibility) using PsyQ SDK and the C programming language.
+
+                        Programs were tested using various PSX emulators.
+
+                        I followed the tutorials by author "lameguy"
+
+                        <!-- Edit author's name here -->
+
+                    <ul>
+                        Technologies Used:
+                        <li>PsyQ SDK</li>
+                        <li>C Programming Language</li>
+                        <li>Vim for Windows 98</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sony PSP Programming.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions6" aria-controls="offcanvasWithBothOptions6">View
+                            Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions6"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DirectX 11</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These programs were written for Sony's handheld PlayStation Portable device.
+
+                        The programs were developed using the PSPSDK, and the C programming language.
+
+                    <ul>
+                        Technologies Used:
+                        <li>C programming language</li>
+                        <li>PSPSDK</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Project Row 5-->
+        <div class="card-row">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Playstation 1 Programming</h5>
+                    <p class="card-text">Programs created for the original Sony PlayStation game console</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions5">View
+                        Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Playstation 1 Programming</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        Programs created for the Sony Playstation 1 just for curiosity and learning!
+
+                        The programs were created in a VM version of Windows 98 (for compatibility) using PsyQ SDK and the C programming language.
+
+                        Programs were tested using various PSX emulators.
+
+                        I followed the tutorials by author "lameguy"
+
+                        <!-- Edit author's name here -->
+
+                    <ul>
+                        Technologies Used:
+                        <li>PsyQ SDK</li>
+                        <li>C Programming Language</li>
+                        <li>Vim for Windows 98</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/images/sample.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sony PSP Programming.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions6" aria-controls="offcanvasWithBothOptions6">View
+                            Details</button>
+                </div>
+            </div>
+            <!-- Off canvas info display - Write project details here-->
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions6"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DirectX 11</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        These programs were written for Sony's handheld PlayStation Portable device.
+
+                        The programs were developed using the PSPSDK, and the C programming language.
+
+                    <ul>
+                        Technologies Used:
+                        <li>C programming language</li>
+                        <li>PSPSDK</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; Karan Patil. All rights reserved. </p>
+    </footer>
+
+    <script>
+        document.querySelector('footer p').innerHTML += new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
